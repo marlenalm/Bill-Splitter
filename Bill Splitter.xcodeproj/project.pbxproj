@@ -14,6 +14,7 @@
 		CDDB36E81A86C073003901CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDB36E71A86C073003901CE /* Images.xcassets */; };
 		CDDB36EB1A86C073003901CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDDB36E91A86C073003901CE /* LaunchScreen.xib */; };
 		CDDB36F71A86C073003901CE /* Bill_SplitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB36F61A86C073003901CE /* Bill_SplitterTests.swift */; };
+		CDDB37031A86C108003901CE /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB37021A86C108003901CE /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		CDDB36F01A86C073003901CE /* Bill SplitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bill SplitterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDB36F51A86C073003901CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDDB36F61A86C073003901CE /* Bill_SplitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill_SplitterTests.swift; sourceTree = "<group>"; };
+		CDDB37021A86C108003901CE /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				CDDB36E71A86C073003901CE /* Images.xcassets */,
 				CDDB36E91A86C073003901CE /* LaunchScreen.xib */,
 				CDDB36DC1A86C073003901CE /* Supporting Files */,
+				CDDB37021A86C108003901CE /* TaskManager.swift */,
 			);
 			path = "Bill Splitter";
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				CDDB36E31A86C073003901CE /* SecondViewController.swift in Sources */,
 				CDDB36DF1A86C073003901CE /* AppDelegate.swift in Sources */,
+				CDDB37031A86C108003901CE /* TaskManager.swift in Sources */,
 				CDDB36E11A86C073003901CE /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
